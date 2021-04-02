@@ -30,11 +30,13 @@ body {
 .add-item {
   display: flex;
 }
-.main__todo-list, .main__completed-tasks {
+.main__todo-list,
+.main__completed-tasks {
   margin:0;
   padding: 0px;
 }
-.list_item, .section_name {
+.list_item,
+.section_name {
   list-style:none;
 }
 
@@ -63,7 +65,8 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.input_text, .add-item__new {
+.input_text,
+.add-item__new {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
